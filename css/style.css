@@ -1,0 +1,49 @@
+/* How To Identify Mistakes?
+To identify any selector easily, use outline: 1px solid red; */
+
+/* Entire Webpage Format*/
+body{
+    font-family: Nunito Sans, Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Heading Rules: Does heading include headers? Is this too many rules*/
+h1 {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+h2 {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+/*Is this right?*/
+.material-icons {
+    position: relative;
+    top: 5px;
+}
+
+/*Page Spacing*/
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Note you are missing the additionally from 1. in the exercise. How do I do that?*/
+
+p, dl {
+   margin-top: 0; 
+   margin-bottom: 1rem;
+}
+
+/* Navigation*/
+li {
+    display: inline;
+}
