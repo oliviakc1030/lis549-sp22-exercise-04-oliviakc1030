@@ -7,7 +7,23 @@ body{
     font-size: 16px;
 }
 
-/* Heading Rules: Does heading include headers? Is this too many rules*/
+/* Header & Motto */
+header {
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url("paul-gilmore-145802-unsplash.jpg");
+    background-size: cover;
+    background-color: #0084Af;
+
+}
+
+.motto {
+    font-style: italic;  
+    height: 1.25rem;
+}
+
+/* Headings*/
 h1 {
     font-family: Raleway, Helvetica, sans-serif;
     font-weight: 300;
@@ -35,8 +51,8 @@ h2 {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
 }
-/* Note you are missing the additionally from 1. in the exercise. How do I do that?*/
 
 p, dl {
    margin-top: 0; 
@@ -44,10 +60,70 @@ p, dl {
 }
 
 /* Navigation*/
+
 li {
     display: inline;
+}
+a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 1rem; 
+} 
+a:hover {
+    color: #F0F0F0;
+    border-bottom: solid #F0F0F0 .8rem;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
     background-color: #2C96BF;
-    padding: .5rem;
+    color: white;
+    padding:.5rem;
     padding-bottom: 1rem;
-    outline: 1px solid red;
+
+}
+
+/* Menu*/
+#menu {
+    background-color:#f0f0f0;
+}
+dt {
+    font-size: 125%;
+    font-style: bold;
+    margin-top: 1rem;
+}
+
+dd{
+    margin: 0;
+}
+
+img {   
+    border-radius:15px ;
+    height:200px ;
+}
+#about {
+    background-color: #e0e0e0;
+    line-height: 1.5;
+}
+
+/*Footer Rules*/
+footer {
+color: white;
+background-color:#3E1305 ;
+
+}
+footer a {
+    color: white;
+}
+
+footer a:hover{
+    border-bottom: none;
+}
+footer p {
+    margin: 0;
+    line-height: 1.25x;
+}
+footer p:last-child{
+    padding-top: 8px;
 }
