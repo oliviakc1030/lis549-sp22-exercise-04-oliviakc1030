@@ -40,7 +40,7 @@ h2 {
     margin-bottom: .5rem;
 }
 
-/*Is this right?*/
+/*Icons*/
 .material-icons {
     position: relative;
     top: 5px;
@@ -60,14 +60,14 @@ p, dl {
 }
 
 /* Navigation*/
-
 li {
     display: inline;
+    margin: 0 1rem; 
 }
 a {
     color: black;
     text-decoration: none;
-    margin: 0px 1rem; 
+  
 } 
 a:hover {
     color: #F0F0F0;
@@ -124,6 +124,7 @@ footer p {
     margin: 0;
     line-height: 1.25x;
 }
+
 footer p:last-child{
     padding-top: 8px;
 }
